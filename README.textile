@@ -1,3 +1,12 @@
 h1. Customs
 
 The data import / export gem.
+
+h2. Goals
+
+To be able to import from and export to data stores that are not stored in your preferred format.
+The plan is to generate import/export profiles that are a ruby dsl.  Your datastore can then read these
+profiles and import or export from a remote database, csv, or spreadsheet.  Ideally these profiles can
+be generated via a web interface to avoid even having to write them.  You would upload a sample import,
+or give it a db connection to the store to get an idea of its schema, and then generate a profile by
+connecting the source _attribute_ to the destination _attribute_.
