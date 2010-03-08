@@ -12,3 +12,9 @@ or give it a db connection to the store to get an idea of its schema, and then g
 connecting the source _attribute_ to the destination _attribute_.
 
 Example usage can be found in the spec/fixtures folder.
+
+h4. Todo
+
+- Finish testing foo
+- Add Spreadsheet Adapter
+- Write DSL generator app
