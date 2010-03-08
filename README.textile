@@ -10,3 +10,5 @@ profiles and import or export from a remote database, csv, or spreadsheet.  Idea
 be generated via a web interface to avoid even having to write them.  You would upload a sample import,
 or give it a db connection to the store to get an idea of its schema, and then generate a profile by
 connecting the source _attribute_ to the destination _attribute_.
+
+Example usage can be found in the spec/fixtures folder.

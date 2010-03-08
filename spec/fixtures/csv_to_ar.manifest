@@ -1,0 +1,17 @@
+customs do
+  
+  import FasterCSV, './data.csv'
+  export Business,  File.dirname(__FILE__) + '/database.yml'
+  
+  {
+  0 => :name,
+  1 => :address,
+  2 => :city,
+  3 => :state,
+  4 => :zip,
+  5 => :phone,
+  6 => :contact,
+  7 => :value
+  }
+  
+end
